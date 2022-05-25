@@ -37,7 +37,7 @@ input_file_format = ".tif"
 treatment_list = ["Jennaimages"]
 
 ## Select the previously executed mode, on which the quantification will be performed
-threshold_mode = "triangle"
+threshold_mode = "otsu"
 # Other options:
 #  - "triangle_on_dapi_intensity_greater_1_on_rest"
 #  - "otsu_on_dapi_intensity_greater_1_on_rest"
